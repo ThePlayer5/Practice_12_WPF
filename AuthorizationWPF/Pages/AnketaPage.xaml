@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AuthorizationWPF.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="600"
+      d:DesignHeight="650" d:DesignWidth="600"
       Title="AnketaPage">
 
     <Grid>
@@ -26,6 +26,9 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
         <Button Content="Сохранить"
@@ -33,7 +36,8 @@
                 Grid.Column="3"
                 Grid.Row="0"
                 Grid.ColumnSpan="2"
-                Margin="10"/>
+                Margin="10"
+                Click="Button_Click"/>
         <StackPanel Grid.Column="1"
             Grid.Row="2"
             Grid.ColumnSpan="4"
@@ -118,8 +122,122 @@
         <StackPanel Grid.Column="1"
                     Grid.Row="7"
                     Grid.ColumnSpan="4"
+                    Grid.RowSpan="4"
                     VerticalAlignment="Center"
                     Orientation="Horizontal">
+            <Border Background="Black">
+                <Image Source="C:\Users\User02\Source\Repos\Practice_12_WPF\AuthorizationWPF\Images\Аркынтырыксус.jpg"
+                       Width="200"
+                       Height="200"/>
+            </Border>
+            <ListView>
+                <ListViewItem>
+                    <StackPanel Width="180"
+                                Height="20"
+                                Orientation="Horizontal">
+                        <TextBlock Width="90"
+                                   Text="Название книги"
+                                   Background="LightGray"
+                                   TextAlignment="Center"/>
+                        <TextBlock Width="90"
+                                   Text="Автор"
+                                   Background="DimGray"
+                                   Foreground="White"
+                                   TextAlignment="Center"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem>
+                    <StackPanel Width="180"
+                                Height="20"
+                                Orientation="Horizontal">
+                        <TextBox Width="90"
+                                 Background="LightGray"
+                                 TextAlignment="Center"/>
+                        <TextBox Width="90"
+                                 Background="DimGray"
+                                 Foreground="White"
+                                 TextAlignment="Center"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem>
+                    <StackPanel Width="180"
+                Height="20"
+                Orientation="Horizontal">
+                        <TextBox Width="90"
+                 Background="LightGray"
+                 TextAlignment="Center"/>
+                        <TextBox Width="90"
+                 Background="DimGray"
+                 Foreground="White"
+                 TextAlignment="Center"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem>
+                    <StackPanel Width="180"
+                Height="20"
+                Orientation="Horizontal">
+                        <TextBox Width="90"
+                 Background="LightGray"
+                 TextAlignment="Center"/>
+                        <TextBox Width="90"
+                 Background="DimGray"
+                 Foreground="White"
+                 TextAlignment="Center"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem>
+                    <StackPanel Width="180"
+                Height="20"
+                Orientation="Horizontal">
+                        <TextBox Width="90"
+                 Background="LightGray"
+                 TextAlignment="Center"/>
+                        <TextBox Width="90"
+                 Background="DimGray"
+                 Foreground="White"
+                 TextAlignment="Center"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem>
+                    <StackPanel Width="180"
+                Height="20"
+                Orientation="Horizontal">
+                        <TextBox Width="90"
+                 Background="LightGray"
+                 TextAlignment="Center"/>
+                        <TextBox Width="90"
+                 Background="DimGray"
+                 Foreground="White"
+                 TextAlignment="Center"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem>
+                    <StackPanel Width="180"
+                Height="20"
+                Orientation="Horizontal">
+                        <TextBox Width="90"
+                 Background="LightGray"
+                 TextAlignment="Center"/>
+                        <TextBox Width="90"
+                 Background="DimGray"
+                 Foreground="White"
+                 TextAlignment="Center"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem>
+                    <StackPanel Width="180"
+                Height="20"
+                Orientation="Horizontal">
+                        <TextBox Width="90"
+                 Background="LightGray"
+                 TextAlignment="Center"/>
+                        <TextBox Width="90"
+                 Background="DimGray"
+                 Foreground="White"
+                 TextAlignment="Center"/>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
         </StackPanel>
 
     </Grid>

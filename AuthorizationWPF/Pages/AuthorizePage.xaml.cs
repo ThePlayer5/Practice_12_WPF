@@ -29,8 +29,8 @@ namespace AuthorizationWPF.Pages
         {
             var login = LoginTb.Text;
             var password = PasswordTb.Password;
-            var loginUser = "1";
-            var passwordUser = "1";
+            var loginUser = "Admin";
+            var passwordUser = "1111";
             if (login == loginUser && password == passwordUser)
             {
                 MessageBox.Show("Здравствуй админушка");
