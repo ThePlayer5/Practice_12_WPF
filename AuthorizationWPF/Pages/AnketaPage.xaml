@@ -107,13 +107,13 @@
             </ComboBox>
         </StackPanel>
         <StackPanel Grid.Column="1"
-            Grid.Row="6"
-            Grid.ColumnSpan="4"
-            VerticalAlignment="Center"
-            Orientation="Horizontal">
+                    Grid.Row="6"
+                    Grid.ColumnSpan="4"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal">
             <TextBlock Text="Студент:"
-               FontSize="25"
-               />
+                       FontSize="25"
+                       />
             <Viewbox  Margin="260 0 0 0"
                       Width="30">
                 <CheckBox/>
@@ -126,7 +126,7 @@
                     VerticalAlignment="Center"
                     Orientation="Horizontal">
             <Border Background="Black">
-                <Image Source="C:\Users\User02\Source\Repos\Practice_12_WPF\AuthorizationWPF\Images\Аркынтырыксус.jpg"
+                <Image Source="C:\Users\212301\Source\Repos\Practice_12_WPF\AuthorizationWPF\Images\Аркынтырыксус.jpg"
                        Width="200"
                        Height="200"/>
             </Border>
@@ -161,80 +161,80 @@
                 </ListViewItem>
                 <ListViewItem>
                     <StackPanel Width="180"
-                Height="20"
-                Orientation="Horizontal">
+                                Height="20"
+                                Orientation="Horizontal">
                         <TextBox Width="90"
-                 Background="LightGray"
-                 TextAlignment="Center"/>
+                                 Background="LightGray"
+                                 TextAlignment="Center"/>
                         <TextBox Width="90"
-                 Background="DimGray"
-                 Foreground="White"
-                 TextAlignment="Center"/>
+                                 Background="DimGray"
+                                 Foreground="White"
+                                 TextAlignment="Center"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem>
                     <StackPanel Width="180"
-                Height="20"
-                Orientation="Horizontal">
+                                Height="20"
+                                Orientation="Horizontal">
                         <TextBox Width="90"
-                 Background="LightGray"
-                 TextAlignment="Center"/>
+                                 Background="LightGray"
+                                 TextAlignment="Center"/>
                         <TextBox Width="90"
-                 Background="DimGray"
-                 Foreground="White"
-                 TextAlignment="Center"/>
+                                 Background="DimGray"
+                                 Foreground="White"
+                                 TextAlignment="Center"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem>
                     <StackPanel Width="180"
-                Height="20"
-                Orientation="Horizontal">
+                                Height="20"
+                                Orientation="Horizontal">
                         <TextBox Width="90"
-                 Background="LightGray"
-                 TextAlignment="Center"/>
+                                 Background="LightGray"
+                                 TextAlignment="Center"/>
                         <TextBox Width="90"
-                 Background="DimGray"
-                 Foreground="White"
-                 TextAlignment="Center"/>
+                                 Background="DimGray"
+                                 Foreground="White"
+                                 TextAlignment="Center"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem>
                     <StackPanel Width="180"
-                Height="20"
-                Orientation="Horizontal">
+                                Height="20"
+                                Orientation="Horizontal">
                         <TextBox Width="90"
-                 Background="LightGray"
-                 TextAlignment="Center"/>
+                                 Background="LightGray"
+                                 TextAlignment="Center"/>
                         <TextBox Width="90"
-                 Background="DimGray"
-                 Foreground="White"
-                 TextAlignment="Center"/>
+                                 Background="DimGray"
+                                 Foreground="White"
+                                 TextAlignment="Center"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem>
                     <StackPanel Width="180"
-                Height="20"
-                Orientation="Horizontal">
+                                Height="20"
+                                Orientation="Horizontal">
                         <TextBox Width="90"
-                 Background="LightGray"
-                 TextAlignment="Center"/>
+                                 Background="LightGray"
+                                 TextAlignment="Center"/>
                         <TextBox Width="90"
-                 Background="DimGray"
-                 Foreground="White"
-                 TextAlignment="Center"/>
+                                 Background="DimGray"
+                                 Foreground="White"
+                                 TextAlignment="Center"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem>
                     <StackPanel Width="180"
-                Height="20"
-                Orientation="Horizontal">
+                                Height="20"
+                                Orientation="Horizontal">
                         <TextBox Width="90"
-                 Background="LightGray"
-                 TextAlignment="Center"/>
+                                 Background="LightGray"
+                                 TextAlignment="Center"/>
                         <TextBox Width="90"
-                 Background="DimGray"
-                 Foreground="White"
-                 TextAlignment="Center"/>
+                                 Background="DimGray"
+                                 Foreground="White"
+                                 TextAlignment="Center"/>
                     </StackPanel>
                 </ListViewItem>
             </ListView>
